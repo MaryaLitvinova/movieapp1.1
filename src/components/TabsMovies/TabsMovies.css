@@ -1,0 +1,23 @@
+.tabs-movies {
+  width: 160px;
+  height: 52px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active {
+  color: #1890ff;
+}
+
+.ant-tabs-tab-btn {
+  padding: 0 10px;
+}
+
+:where(.css-1jyprxx).ant-tabs .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0;
+}
